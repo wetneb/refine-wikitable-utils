@@ -1,6 +1,8 @@
-Sample OpenRefine extension
-===========================
+OpenRefine Wikitable utils extension
+====================================
 
-This repository contains a scaffold of an OpenRefine extension, which you can use as a basis to write your own.
-See [our guide to writing extensions](https://openrefine.org/docs/technical-reference/writing-extensions) for more information about the process.
+This repository contains a draft of an OpenRefine extension which adds support for exporting OpenRefine project to wiki tables.
+Those are [tables formatted according to MediaWiki's markup language](https://www.mediawiki.org/wiki/Help:Tables).
+
+OpenRefine already contains an importer to create an OpenRefine project from such tables. Because it's probably not used very widely, I think it could be worth having it in this extension instead.
 
